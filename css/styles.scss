@@ -1,0 +1,59 @@
+// Framework
+@import 'bulma';
+
+// Light Gallery Base Styling
+@import 'lightgallery';
+// Light Gallery Animations
+@import 'lg-transitions';
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,800');
+$prim: #0197D6;
+$font: "Libre Franklin", sans-serif;
+$lg-counter-color: pink;
+
+.parallax {
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-blend-mode: overlay;
+}
+#largetext {
+	font-size: 5em;
+}
+h1 {
+	font-family: $font;
+	font-weight: 800;
+}
+p {
+	font-family: $font;
+}
+
+.blueberry { 
+	max-width: 900px;
+}
+
+.navbar {
+	background: $prim;
+	
+	.navbar-item {
+		color: white;
+	}
+	
+}
+
+#logo {
+	height: 75px;
+}
+
+
+
+.color-highlight {
+	color: white;
+	background: $prim;
+	padding-left: 12px;
+}
+
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
+	border-color: white;
+}
