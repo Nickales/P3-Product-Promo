@@ -9,7 +9,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,800');
 $prim: #0197D6;
 $font: "Libre Franklin", sans-serif;
-$lg-counter-color: pink;
 
 .parallax {
 	background: url(../img/bg.jpg);
@@ -29,7 +28,11 @@ p {
 	font-family: $font;
 }
 
-.blueberry { 
+.buynow .buynow:hover, .buynow:active {
+	color: $prim;
+}
+
+.bluebowy { 
 	max-width: 900px;
 }
 
@@ -45,8 +48,6 @@ p {
 #logo {
 	height: 75px;
 }
-
-
 
 .color-highlight {
 	color: white;

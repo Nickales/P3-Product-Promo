@@ -13406,7 +13406,12 @@ p {
   font-family: "Libre Franklin", sans-serif;
 }
 
-.blueberry {
+.buynow .buynow:hover,
+.buynow:active {
+  color: #0197D6;
+}
+
+.bluebowy {
   max-width: 900px;
 }
 
@@ -13422,17 +13427,13 @@ p {
   height: 75px;
 }
 
-.lg-outer .lg-thumb-outer,
-.lg-backdrop {
-  background: #fcfcfc;
-}
-
-.lg-thumb-item:hover {
-  border-color: #0197D6;
-}
-
 .color-highlight {
   color: white;
   background: #0197D6;
   padding-left: 12px;
+}
+
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item:hover {
+  border-color: white;
 }
